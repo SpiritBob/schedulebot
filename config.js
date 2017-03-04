@@ -21,7 +21,7 @@ module.exports = {
 	// ScheduleBot's case), the string "<@YOUR_BOT_USER_ID>" doesn't get parsed as a mention.
 	// So in order not to mislead the user, we have a separate option for a readable version of
 	// our prefix.
-	readable_prefix: "DotaManager#5281",
+	readable_prefix: "@DotaManager#5281",
 
 	// Admin app settings
 	admin_app: {
