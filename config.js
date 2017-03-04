@@ -2,7 +2,7 @@ module.exports = {
 
 	// Your bot name. Typically, this is your bot's username without the discriminator.
 	// i.e: if your bot's username is MemeBot#0420, then this option would be MemeBot.
-	name: "ScheduleBot",
+	name: "DotaManager",
 
 	// The bot's command prefix. The bot will recognize as command any message that begins with it.
 	// i.e: "-schedulebot foo" will trigger the command "foo",
@@ -11,7 +11,7 @@ module.exports = {
 	// If you replace YOUR_BOT_USER_ID with your bot's user ID, the prefix will be a mention to
 	// your bot. You can get that ID in https://discordapp.com/developers/applications/me/
 	// (click on your application, and find it under "App Details" > "Client ID"
-	prefix:  "<@YOUR_BOT_USER_ID>",
+	prefix:  "<@287676059649048578",
 
 	// This is a readable version of the prefix. Generally, this is the same as prefix, but if
 	// you set prefix to be in the form of "<@YOUR_BOT_USER_ID>", you'd need to set readable_prefix
@@ -21,7 +21,7 @@ module.exports = {
 	// ScheduleBot's case), the string "<@YOUR_BOT_USER_ID>" doesn't get parsed as a mention.
 	// So in order not to mislead the user, we have a separate option for a readable version of
 	// our prefix.
-	readable_prefix: "@YOUR_BOT_USER_NAME",
+	readable_prefix: "@DotaManager",
 
 	// Admin app settings
 	admin_app: {
@@ -31,7 +31,7 @@ module.exports = {
 
 	// The master channel
 	// The bot will announce the events to this channel. It won't listen to other channels.
-	master_channel: "YOUR_MASTER_CHANNEL",
+	master_channel: "228985508066230272",
 
 	// Events are considered "happening" for a margin of time, where users can see that the event
 	// is happening right now. During that time, the event is not considered expired yet.+
@@ -60,14 +60,14 @@ module.exports = {
 	// MANAGE_MESSAGES - 	0x00002000
 	// More info: https://discordapp.com/developers/docs/topics/permissions
 	delete_after_reply: {
-		enabled: true,
+		enabled: false,
 		time: 60000 // In milliseconds
 	},
 
 	// If true, it will delete any message that is not a command from the master channel.
 	// Leave this on to keep your master channel tidy.
 	// This also requires the "manage messages" permission
-	disallow_talking: true,
+	disallow_talking: false,
 
 	// If false, all (non-blacklisted) users will be able to add inhouses to created events.
 	// If true, only admins will be able to do so.
@@ -99,10 +99,10 @@ module.exports = {
 
 	steam: {
 		// The name that the Steam bots will take. It will be appended with "#id" as in "#1".
-		name: "ScheduleBot",
+		name: "DotaManager",
 
 		// The first bot's profile URL. It's needed to redirect users to it.
-		profile_url: "http://steamcommunity.com/profiles/YOUR_BOT_ID/"
+		profile_url: "http://steamcommunity.com/profiles/76561198001207842/"
 	},
 
 	dota: {
