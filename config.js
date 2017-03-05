@@ -60,18 +60,18 @@ module.exports = {
 	// MANAGE_MESSAGES - 	0x00002000
 	// More info: https://discordapp.com/developers/docs/topics/permissions
 	delete_after_reply: {
-		enabled: false,
+		enabled: true,
 		time: 60000 // In milliseconds
 	},
 
 	// If true, it will delete any message that is not a command from the master channel.
 	// Leave this on to keep your master channel tidy.
 	// This also requires the "manage messages" permission
-	disallow_talking: false,
+	disallow_talking: true,
 
 	// If false, all (non-blacklisted) users will be able to add inhouses to created events.
 	// If true, only admins will be able to do so.
-	add_inhouse_is_admin_command: false,
+	add_inhouse_is_admin_command: true,
 
 	// quick-inhouse command
 	// This command creates an instant lobby and adds an inhouse with the default values.
@@ -110,7 +110,7 @@ module.exports = {
 		// --server flag to the add-inhouse command.
 		// Go to that command's file (Or type -schedulebot add-inhouse --help)
 		// to see possible values.
-		default_server: "Luxembourg",
+		default_server: "Australia",
 
 		// If false, lobbies will be started automatically when ten people join it
 		// (spectators, casters and unassigned players not counted).
