@@ -26,7 +26,7 @@ module.exports = {
 	// Admin app settings
 	admin_app: {
 		desc: "ScheduleBot admin commands",
-		prefix: "Dota-admin"
+		prefix: "dota-admin"
 	},
 
 	// The master channel
