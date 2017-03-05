@@ -61,7 +61,7 @@ module.exports = {
 	// More info: https://discordapp.com/developers/docs/topics/permissions
 	delete_after_reply: {
 		enabled: true,
-		time: 60000 // In milliseconds
+		time: 140000 // In milliseconds
 	},
 
 	// If true, it will delete any message that is not a command from the master channel.
